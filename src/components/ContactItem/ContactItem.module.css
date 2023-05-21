@@ -1,0 +1,28 @@
+.contact__item {
+  display: flex;
+  gap: 30px;
+  list-style: georgian;
+  align-items: center;
+}
+
+.contact__text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contactItem__btn {
+  display: block;
+  width: 30px;
+  height: 24px;
+  padding: 5px 2px;
+  background-color: inherit;
+  outline: 1px solid rgba(140, 140, 140, 0.545);
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s linear;
+}
+
+.contactItem__btn:hover,
+.contactItem__btn:focus {
+  background-color: rgba(47, 121, 225, 0.9);
+}

@@ -1,0 +1,44 @@
+.contact__form {
+  padding: 25px 15px;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  outline: 1px solid black;
+}
+
+.contact__lable {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact__input {
+  width: 45%;
+  outline: 1px solid rgba(140, 140, 140, 0.545);
+  border: none;
+  transition: all 0.3s linear;
+}
+
+.contact__input:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px rgba(47, 121, 225, 0.9),
+    0 0 4px 3px rgba(47, 121, 225, 0.4);
+}
+
+.contact__btn {
+  display: block;
+  width: 20%;
+  background-color: inherit;
+  outline: 1px solid rgba(140, 140, 140, 0.545);
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s linear;
+}
+
+.contact__btn:hover,
+.contact__btn:focus {
+  background-color: rgba(47, 121, 225, 0.9);
+}
