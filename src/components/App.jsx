@@ -6,7 +6,7 @@ import Filer from './Filter/Filter';
 
 export default function App() {
   const [contacts, setContacts] = useState(
-    JSON.parse(window.localStorage.getItem('contacts')) ?? []
+    () => JSON.parse(window.localStorage.getItem('contacts')) ?? []
   );
   const [filter, setFilter] = useState('');
 
